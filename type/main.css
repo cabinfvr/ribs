@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+html {
+    background: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    height: 100%;
+}
+
+body { height: 100%; }
+
+.type { color: black; }
+
+.type-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.type {
+    padding: 150px;
+    /* width: 500px; */
+    background: url('paper.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    max-width: 200px;
+    min-width: 200px;
+    z-index: 1;
+}
